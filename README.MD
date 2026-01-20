@@ -29,6 +29,8 @@
 ```bash
 docker --version
 docker ps
+```
+---
 
 ### 2. Генерация логов
 
