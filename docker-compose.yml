@@ -4,7 +4,7 @@ services:
   healthy-container:
     image: alpine:latest
     container_name: healthy-container
-    command: ["sh", "-c", "while true; do echo 'Healthy container is running...'; sleep 5; done"]
+    command: ["sh", "-c", "while true; do sleep 60; done"]
 
   broken-container:
     image: alpine:latest
